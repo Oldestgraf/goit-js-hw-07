@@ -1,4 +1,3 @@
-//Calculating
 const categoriesList = document.querySelector("#categories");
 categoriesList.style.margin = "0 auto";
 categoriesList.style.display = "inline-flex";
@@ -57,4 +56,3 @@ categoryItems.forEach(categoryItem => {
     categoryItem.style.borderRadius = "4px";
     categoryItem.style.border = "1px solid #808080";
 })
-
