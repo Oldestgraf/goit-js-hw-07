@@ -45,8 +45,3 @@ galleryItems.forEach(galleryItem => {
     galleryItem.style.margin = "0";
     galleryItem.style.padding = "0";
 });
-
-
-
-
-
