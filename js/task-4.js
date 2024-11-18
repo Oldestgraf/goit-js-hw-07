@@ -27,7 +27,6 @@ loginForm.addEventListener("submit", event => {
 
 loginForm.style.display = "inline-flex";
 loginForm.style.padding = "24px";
-// loginForm.style.justifyContent = "center";
 loginForm.style.flexDirection = "column";
 loginForm.style.gap = "8px";
 loginForm.style.borderRadius = "8px";
