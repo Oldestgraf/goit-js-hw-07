@@ -29,6 +29,7 @@ heading.style.fontWeight = "600";
 heading.style.lineHeight = "32px"; /* 133.333% */
 heading.style.letterSpacing = "0.96px";
 
+inputField.style.outline = 'none';
 inputField.style.width = "312px";
 inputField.style.height = "40px";
 inputField.style.color = "#2E2F42";
@@ -42,11 +43,9 @@ inputField.style.borderRadius = "4px";
 inputField.style.border = "1px solid #808080";
 inputField.style.padding = "8px 16px";
 
-inputField.addEventListener("focus", () => {
-    inputField.style.outline = 'none';
+inputField.addEventListener("mouseenter", () => {
     inputField.style.border = "1px solid #000";
 });
-
-inputField.addEventListener("blur", () => {
+inputField.addEventListener("mouseleave", () => {
     inputField.style.border = "1px solid #808080";
 });
